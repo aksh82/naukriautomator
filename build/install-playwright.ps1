@@ -10,7 +10,7 @@ Set-StrictMode -Version Latest
 
 Write-Host '==== install-playwright ===='
 
-$env:JAVA_HOME = 'C:\Users\e182114\.jdks\azul-17.0.10'
+$env:JAVA_HOME = 'C:\Program Files\Eclipse Adoptium\jdk-17.0.19.10-hotspot'
 $root           = Split-Path -Parent $PSScriptRoot
 $playwrightDir  = Join-Path $root 'electron\resources\playwright'
 
