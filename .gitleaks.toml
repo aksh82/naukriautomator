@@ -1,0 +1,6 @@
+[allowlist]
+description = "Allow known false positive localStorage key"
+regexTarget = "match"
+regexes = [
+  '''STORAGE_KEY\s*=\s*"naukri\.jobs\.v1"'''
+]
